@@ -1,0 +1,486 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /*** 
+
+====================================================================
+  elegance col css
+====================================================================
+
+***/ 
+.elegance-row { display:-webkit-box; display:-ms-flexbox; display:flex; -ms-flex-wrap:wrap; flex-wrap:wrap; margin-right:-25px; margin-left:-25px }
+.elegance-col-1, .elegance-col-2, .elegance-col-3, .elegance-col-4, .elegance-col-5, .elegance-col-6, .elegance-col-7, .elegance-col-8, .elegance-col-9, .elegance-col-10, .elegance-col-11, .elegance-col-12 { width:100%; min-height:1px; padding-right:25px; padding-left:25px }
+.elegance-col-1 { width:8.333333% }
+.elegance-col-2 { width:16.666667% }
+.elegance-col-3 { width:25% }
+.elegance-col-4 { width:33.333333% }
+.elegance-col-5 { width:41.666667% }
+.elegance-col-6 { width:50% }
+.elegance-col-7 { width:58.333333% }
+.elegance-col-8 { width:66.666667% }
+.elegance-col-9 { width:75% }
+.elegance-col-10 { width:83.333333% }
+.elegance-col-11 { width:91.666667% }
+.elegance-col-12 { width:100% }
+
+/*** 
+
+====================================================================
+  elegance default css
+====================================================================
+
+***/
+.elegance-section * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.elegance-section { padding-top:50px; padding-bottom:50px; }
+.elegance-section a{color: #000; text-decoration:none;transition: all 0.3s ease-in-out;}
+.elegance-section a:hover{color: #D0B998;}
+.elegance-section p { margin: 0 0 15px 0; }
+.elegance-section-header { text-align:center; margin-bottom:60px; }
+.elegance-section-header .elegance-heading { margin-bottom:10px;}
+.elegance-section-header p { font-size:18px; color:#000;letter-spacing: 0.18px; font-weight:500;}
+.elegance-menu-item { margin-bottom:40px; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-1 css 
+====================================================================
+
+***/
+.resto-menu-style-1 .elegance-section-header .elegance-heading {margin-bottom: 10px;}
+.resto-menu-style-1 .elegance-menu-header {display: flex;align-items: center;border-bottom: 1px dashed #000000; margin-bottom:28px;padding-bottom: 5px;justify-content: space-between;}
+.resto-menu-style-1 .elegance-menu-item .food-name, .resto-menu-style-1 .elegance-menu-item .food-price { font-size:22px; font-weight:700; color:#000;letter-spacing: 0.22px; }
+.resto-menu-style-1 .elegance-menu-body {display: flex;}
+.resto-menu-style-1 .elegance-menu-item .food-img { width:80px; height:80px; border-radius:50%;overflow: hidden; }
+.resto-menu-style-1 .elegance-menu-item .food-img img { width:100%; height:100%; object-fit:cover; }
+.resto-menu-style-1 .elegance-menu-item .food-description { padding-left:30px; margin-bottom:0; width: calc(100% - 80px);letter-spacing: 0.16px; font-size:16px; font-weight:500; color:#000;line-height: 1.5; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-2 css 
+====================================================================
+
+***/
+.resto-menu-style-2 .elegance-section-header p { margin-bottom:5px;letter-spacing: 0.22px;color: #A7C0C5; font-size:22px; font-weight:500;}
+.resto-menu-style-2 .elegance-menu-header {display: flex;align-items: center; margin-bottom:5px;justify-content: space-between;}
+.resto-menu-style-2 .elegance-menu-item .food-name, .resto-menu-style-2 .elegance-menu-item .food-price { font-size:25px; font-weight:700; color:#000;letter-spacing: 0.25px; }
+.resto-menu-style-2 .elegance-menu-body {display: flex;padding-right: 300px; position:relative;}
+.resto-menu-style-2 .elegance-menu-item .food-description { margin-bottom:0; letter-spacing: 0.16px; font-size:16px; font-weight:500; color:#000;line-height: 1.5; }
+.elegance-divider {flex-grow: 1;height: 17px;margin-left: 10px;margin-right: 10px;border-bottom: 1px dashed #000000;}
+.add-more {background: #DDEFF3;border-radius: 5px; padding:7px 12px;letter-spacing: 0.14px;color: #000000;text-transform: uppercase; font-size:14px; font-weight:600;font-family: "Open Sans", sans-serif;position: absolute;right: 0;top: 0;}
+.add-more a { color:#000; text-decoration:none; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-3 css 
+====================================================================
+
+***/
+.resto-menu-style-3 .elegance-section-header p { margin-bottom:0;letter-spacing: 0.22px;color: #D0B998; font-size:22px; font-weight:500;}
+
+.elegance-tabs { margin:0 0 60px 0; padding:0; list-style:none;display: flex;justify-content: center;flex-wrap: wrap; }
+.elegance-tabs li { padding: 0 10px; }
+.elegance-tabs .elegance-tab-text { cursor:pointer; text-transform:uppercase;letter-spacing: 0.18px;color: #000000; font-size:18px; font-weight:700;border: 1px solid #E9E8E4;border-radius: 10px; background:#fff;transition: all 0.3s ease-in-out; padding: 10px; min-width:208px; min-height:60px;display: flex; align-items: center; justify-content: center; position:relative;}
+.elegance-tabs .elegance-tab-text:before {width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent;border-top: 10px solid #EFE9DF; position:absolute; left:50%; bottom:-9px; content:"";transform: translateX(-50%); opacity:0; visibility:hidden;transition: all 0.3s ease-in-out;}
+.elegance-tabs .elegance-tab-text:hover { background:#E9E8E4;}
+.elegance-tabs .current .elegance-tab-text { background:#EFE9DF; border-color:#EFE9DF;}
+.elegance-tabs .current .elegance-tab-text:before {opacity:1; visibility:visible;}
+.elegance-tab-content { display:none; }
+.elegance-tab-content.current { display:block; }
+.resto-menu-style-3 .elegance-menu-item {display: flex; flex-wrap:wrap;}
+.resto-menu-style-3 .elegance-menu-item .food-img {width: 93px;height: 93px;border-radius: 15px;overflow: hidden;}
+.resto-menu-style-3 .elegance-menu-item .food-img img {width: 100%;height: 100%;object-fit: cover;}
+.resto-menu-style-3 .elegance-menu-body {width: calc(100% - 93px); padding-left:22px;}
+.resto-menu-style-3 .elegance-menu-header {display: flex;align-items: center;border-bottom: 1px dashed #000000;margin-bottom: 16px;padding-bottom: 3px;justify-content: space-between;}
+.resto-menu-style-3 .elegance-menu-header { margin-bottom:3px; padding: 0px 0px 6px 0px; } 
+.resto-menu-style-3 .elegance-menu-item .food-name, .resto-menu-style-3 .elegance-menu-item .food-price {
+font-size: 22px;font-weight: 700;color: #000;line-height: 1.3;}
+.resto-menu-style-3 .elegance-menu-item .food-description {margin-bottom: 0;letter-spacing: 0.16px;font-size: 16px;font-weight: 500;color: #000;line-height: 1.5;}
+
+/*** 
+
+====================================================================
+  resto-menu-style-4 css 
+====================================================================
+
+***/
+.resto-menu-style-4 .elegance-section-header .elegance-heading {margin-bottom: 10px;}
+.resto-menu-style-4 .elegance-menu-item { margin-bottom:30px; padding-bottom:25px; border-bottom:1px solid #ccc;height: calc(100% - 30px);}
+.resto-menu-style-4 .elegance-row  .elegance-col-6:last-child .elegance-menu-item, .resto-menu-style-4 .elegance-row  .elegance-col-6:nth-last-child(2) .elegance-menu-item { padding-bottom:0; margin-bottom:0; border-bottom:0; height:100%; }
+.resto-menu-style-4 .elegance-menu-header {display: flex;align-items: center; margin-bottom:5px;justify-content: space-between;}
+.resto-menu-style-4 .elegance-menu-item .food-name, .resto-menu-style-4 .elegance-menu-item .food-price { font-size:22px; font-weight:700; color:#000;letter-spacing: 0.22px; }
+.resto-menu-style-4 .elegance-menu-body {display: flex;}
+.resto-menu-style-4 .elegance-menu-item .food-description { margin-bottom:0; letter-spacing: 0.16px; font-size:16px; font-weight:500; color:#000;line-height: 1.5; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-5 css 
+====================================================================
+
+***/
+.resto-menu-style-5 .elegance-row { margin-left:-15px; margin-right:-15px; }
+.resto-menu-style-5 .elegance-row .elegance-col-4 { padding-left:15px; padding-right:15px; }
+.resto-menu-style-5 .elegance-menu-item { position:relative; display:block; overflow:hidden; position:relative; margin-bottom:30px; }
+.resto-menu-style-5 .elegance-menu-item:before { position:absolute; left:0; bottom:0; width:100%; height:100%; content:""; z-index:1;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);}
+.resto-menu-style-5 .elegance-menu-item .food-img { width:100%; height:430px; overflow:hidden; }
+.resto-menu-style-5 .elegance-menu-item .food-img img { width:100%; height:100%; object-fit:cover;transition: all 0.3s ease-in-out; }
+.resto-menu-style-5 a.elegance-menu-item:hover .food-img img { transform:scale(1.1);}
+.resto-menu-style-5 .elegance-menu-body { position:absolute; left:0; bottom:0; width:100%; padding: 30px; z-index:1;transition: all 0.3s ease-in-out; }
+.resto-menu-style-5 a.elegance-menu-item:hover .elegance-menu-body { bottom:10px; }
+.resto-menu-style-5 .elegance-menu-item .food-name h3{ font-size:25px; font-weight:700; color:#E5BA7D;letter-spacing: 0.25px; margin-bottom:14px;transition: all 0.3s ease-in-out; } 
+.resto-menu-style-5 a.elegance-menu-item:hover .food-name { color:#fff; }
+.resto-menu-style-5 .elegance-menu-item .food-price { font-size:40px; font-weight:700; color:#fff;margin-bottom:8px;line-height: 1.3;} 
+.resto-menu-style-4 .elegance-menu-item .food-price .food-old-price, .resto-menu-style-5 .elegance-menu-item .food-price .food-old-price { font-size:18px; font-weight:400; padding-left:8px;font-family: "Open Sans", sans-serif;display: inline-block; vertical-align: middle;text-decoration: line-through;}
+.resto-menu-style-5 .elegance-menu-item .food-description { margin-bottom:0; letter-spacing: 0.16px; font-size:16px; font-weight:500; color:#fff;line-height: 1.5; }
+.elegance-menu-item h3 { margin: 0; padding: 0;}
+
+@media only screen and (max-width: 1225px) {
+.elegance-row { margin-right: -15px; margin-left: -15px; }
+.elegance-col-1, .elegance-col-2, .elegance-col-3, .elegance-col-4, .elegance-col-5, .elegance-col-6, .elegance-col-7, .elegance-col-8, .elegance-col-9, .elegance-col-10, .elegance-col-11, .elegance-col-12 {padding-right: 15px; padding-left: 15px; }
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-1 css 
+====================================================================
+
+***/
+.resto-menu-style-1 .elegance-menu-item .food-name, .resto-menu-style-1 .elegance-menu-item .food-price { font-size:18px; }
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-2 css 
+====================================================================
+
+***/
+.resto-menu-style-2 .elegance-menu-item .food-name, .resto-menu-style-2 .elegance-menu-item .food-price { font-size:21px; }
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-3 css 
+====================================================================
+
+***/
+.resto-menu-style-3 .elegance-menu-item .food-name, .resto-menu-style-3 .elegance-menu-item .food-price { font-size:18px; }
+.elegance-tabs .elegance-tab-text {font-size: 16px;min-width: 160px; min-height: 50px;}
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-4 css 
+====================================================================
+
+***/
+.resto-menu-style-4 .elegance-menu-item .food-name, .resto-menu-style-4 .elegance-menu-item .food-price { font-size:18px; }
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-5 css 
+====================================================================
+
+***/
+.resto-menu-style-5 .elegance-menu-body { padding: 15px; }
+.resto-menu-style-5 .elegance-menu-item .food-price { font-size: 30px; }
+.resto-menu-style-5 .elegance-menu-item .food-name h3{ font-size: 22px; }
+}
+
+@media only screen and (max-width: 992px) {
+.elegance-col-6 {width: 100%;}
+.elegance-col-4 {width: 50%;}
+}
+
+@media only screen and (max-width: 767px) {
+.elegance-col-4 {width: 100%;}
+.elegance-section {padding-top: 30px;padding-bottom: 30px;}
+.elegance-section-header p { font-size:16px; }
+.elegance-section-header { margin-bottom: 35px; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-1 css 
+====================================================================
+
+***/
+.resto-menu-style-1 .elegance-menu-item .food-name, .resto-menu-style-1 .elegance-menu-item .food-price { font-size:16px; }
+.resto-menu-style-1 .elegance-menu-item .food-img {width: 70px;height: 70px;}
+.resto-menu-style-1 .elegance-menu-item .food-description { padding-left:15px; font-size:15px; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-2 css 
+====================================================================
+
+***/
+.resto-menu-style-2 .elegance-menu-item .food-name, .resto-menu-style-2 .elegance-menu-item .food-price { font-size:16px; }
+.resto-menu-style-2 .elegance-menu-body { padding-right:0; display:block;}
+.add-more { position:static;display: inline-flex; margin-top: 15px; }
+.resto-menu-style-2 .elegance-menu-item .food-description { font-size:15px; }
+.resto-menu-style-2 .elegance-section-header p { font-size:17px; }
+
+/*** 
+
+====================================================================
+  resto-menu-style-3 css 
+====================================================================
+
+***/
+.resto-menu-style-3 .elegance-menu-item .food-name, .resto-menu-style-3 .elegance-menu-item .food-price { font-size:16px; }
+.elegance-tabs { margin-bottom:30px; }
+.elegance-tabs li { width:50%; padding: 5px; }
+.elegance-tabs .elegance-tab-text { min-width:1px; font-size:14px; }
+.elegance-tabs .elegance-tab-text::before { display:none; }
+.resto-menu-style-3 .elegance-menu-item {flex-direction: column;}
+.resto-menu-style-3 .elegance-menu-item .food-img { width:100%; height:300px; }
+.resto-menu-style-3 .elegance-menu-body {width: 100%;padding-left: 0;padding-top: 20px;}
+.resto-menu-style-3 .elegance-menu-item .food-description { font-size:15px; }
+.resto-menu-style-3 .elegance-section-header p { font-size:17px; }
+
+
+/*** 
+
+====================================================================
+  resto-menu-style-4 css 
+====================================================================
+
+***/
+.resto-menu-style-4 .elegance-menu-item .food-name, .resto-menu-style-4 .elegance-menu-item .food-price { font-size:16px; }
+.resto-menu-style-4 .elegance-menu-item .food-description { font-size:15px; }
+.resto-menu-style-4 .elegance-row .elegance-col-6:nth-last-child(2) .elegance-menu-item {margin-bottom: 30px;padding-bottom: 25px;border-bottom: 1px solid #ccc;height: calc(100% - 30px);}
+
+/*** 
+
+====================================================================
+  resto-menu-style-5 css 
+====================================================================
+
+***/
+.resto-menu-style-5 .elegance-menu-item { margin-bottom: 15px; }
+.resto-menu-style-5 .elegance-menu-item .food-price { font-size: 24px; }
+.resto-menu-style-5 .elegance-menu-item .food-name h3{ font-size: 20px; }
+.resto-menu-style-5 .elegance-menu-item .food-price .food-old-price { font-size:16px; }
+.resto-menu-style-5 .elegance-menu-item .food-img { height:350px; }
+}
+
+
+
+/*** 
+
+====================================================================
+  elegance default css
+====================================================================
+
+***/
+.elegance-section * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; box-sizing: border-box; }
+.elegance-section { padding-top:50px; padding-bottom:50px; }
+.elegance-section a{color: #000; text-decoration:none;transition: all 0.3s ease-in-out;}
+.elegance-section a:hover{color: #D0B998;}
+.elegance-section p { margin: 0 0 15px 0; }
+.elegance-section-header { text-align:center; margin-bottom:60px; }
+.elegance-section-header .elegance-heading { margin-bottom:10px;}
+.elegance-section-header p { font-size:18px; color:#000;letter-spacing: 0.18px; font-weight:500;}
+.elegance-menu-item { margin-bottom:40px; }
+
+/*** 
+
+====================================================================
+  salon-menu-style-1 css 
+====================================================================
+
+***/
+.salon-menu-style-1 .elegance-beauty-widget { margin-bottom:50px; }
+.salon-menu-style-1 .elegance-beauty-header {display: flex;align-items: center;justify-content: space-between;border-bottom: 2px solid #000000; padding-bottom:12px; margin-bottom:15px;}
+.salon-menu-style-1 .elegance-beauty-title {letter-spacing: 0.25px;color: #BA9662; font-size:25px; font-weight:700;}
+.salon-menu-style-1 .elegance-beauty-price {color: #BA9662; font-size:20px; font-weight:700;}
+.salon-menu-style-1 .elegance-beauty-list { margin:0; padding:0; list-style:none; }
+.salon-menu-style-1 .elegance-beauty-list li  {display: flex;align-items: center;justify-content: space-between; padding-top:12px; }
+.salon-menu-style-1 .elegance-beauty-list li:not(:last-child) {border-bottom: 2px dashed #E2E2E2; padding-bottom:12px;}
+.salon-menu-style-1 .elegance-salon-title, .salon-menu-style-1 .elegance-salon-price {letter-spacing: 0.2px;color: #000000; font-weight:700; font-size:20px;}
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-2 css 
+====================================================================
+
+***/
+.salon-menu-style-2 .elegance-section-header p { margin-bottom:5px;letter-spacing: 0.22px;color: #A7C0C5; font-size:22px; font-weight:500;}
+.salon-menu-style-2 .elegance-menu-item {display: flex;align-items: center; margin-bottom:30px;justify-content: space-between;}
+.salon-menu-style-2 .elegance-menu-item .salon-title, .salon-menu-style-2 .elegance-menu-item .salon-price { font-size:22px; font-weight:700; color:#000;letter-spacing: 0.22px; }
+.elegance-divider {flex-grow: 1;height: 17px;margin-left: 5px;margin-right: 5px;border-bottom: 2px dashed #A7C0C5;}
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-3 css 
+====================================================================
+
+***/
+.salon-menu-style-3 .elegance-section-header p { margin-bottom:5px;letter-spacing: 0.22px;color: #A7C0C5; font-size:22px; font-weight:500;}
+
+.elegance-tabs { margin:0 0 60px 0; padding:0; list-style:none;display: flex;justify-content: center;flex-wrap: wrap; }
+.elegance-tabs li { padding: 0 10px; }
+.elegance-tabs .elegance-tab-text { cursor:pointer; text-transform:uppercase;letter-spacing: 0.18px;color: #000000; font-size:18px; font-weight:700;border: 1px solid #E9E8E4;border-radius: 10px; background:#fff;transition: all 0.3s ease-in-out; padding: 10px; min-width:208px; min-height:60px;display: flex; align-items: center; justify-content: center; position:relative;}
+.elegance-tabs .elegance-tab-text:before {width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent;border-top: 10px solid #DDEFF3; position:absolute; left:50%; bottom:-9px; content:"";transform: translateX(-50%); opacity:0; visibility:hidden;transition: all 0.3s ease-in-out;}
+.elegance-tabs .elegance-tab-text:hover { background:#DDEFF3;}
+.elegance-tabs .current .elegance-tab-text { background:#DDEFF3; border-color:#DDEFF3;}
+.elegance-tabs .current .elegance-tab-text:before {opacity:1; visibility:visible;}
+.elegance-tab-content { display:none; }
+.elegance-tab-content.current { display:block; }
+.salon-menu-style-3 .elegance-menu-item {display: flex; flex-wrap:wrap;align-items: center;margin-bottom: 27px;}
+.salon-menu-style-3 .elegance-menu-item .salon-img {width: 87px;height: 87px;border-radius: 15px;overflow: hidden;}
+.salon-menu-style-3 .elegance-menu-item .salon-img img {width: 100%;height: 100%;object-fit: cover;}
+.salon-menu-style-3 .elegance-menu-body {width: calc(100% - 87px); padding-left:22px;}
+.salon-menu-style-3 .elegance-menu-header {display: flex;align-items: center;justify-content: space-between;}
+.salon-menu-style-3 .elegance-menu-item .salon-title, .salon-menu-style-3 .elegance-menu-item .salon-price {
+font-size: 22px;font-weight: 700;color: #000;}
+.salon-menu-style-3 .elegance-divider {border-bottom: 2px dashed #000000;}
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-4 css 
+====================================================================
+
+***/
+.salon-menu-style-4 .elegance-row { margin-left:-15px; margin-right:-15px; }
+.salon-menu-style-4 .elegance-row .elegance-col-4 { padding-left:15px; padding-right:15px; }
+.salon-menu-style-4 .elegance-menu-item { position:relative; display:block; overflow:hidden; position:relative; margin-bottom:30px;border-radius: 15px; }
+.salon-menu-style-4 .elegance-menu-item:before { position:absolute; left:0; bottom:0; width:100%; height:100%; content:""; z-index:1;background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);}
+.salon-menu-style-4 .elegance-menu-item .salon-img { width:100%; height:430px; overflow:hidden; }
+.salon-menu-style-4 .elegance-menu-item .salon-img img { width:100%; height:100%; object-fit:cover;transition: all 0.3s ease-in-out; }
+.salon-menu-style-4 .elegance-menu-body { position:absolute; left:0; bottom:0; width:100%; padding: 30px; z-index:1;transition: all 0.3s ease-in-out; }
+.salon-menu-style-4 .elegance-menu-item .salon-title { font-size:28px; font-weight:700; color:#E5BA7D;letter-spacing: 0.28px; margin-bottom:0;transition: all 0.3s ease-in-out; } 
+.salon-menu-style-4 .elegance-menu-item .salon-price { font-size:40px; font-weight:700; color:#fff;margin-bottom:8px; } 
+.salon-menu-style-2 .elegance-menu-item .salon-price .salon-old-price, .salon-menu-style-4 .elegance-menu-item .salon-price .salon-old-price { font-size:18px; font-weight:400; padding-left:8px;font-family: "Open Sans", sans-serif;display: inline-block; vertical-align: middle;text-decoration: line-through;}
+
+
+@media only screen and (max-width: 1225px) {
+.elegance-row { margin-right: -15px; margin-left: -15px; }
+.elegance-col-1, .elegance-col-2, .elegance-col-3, .elegance-col-4, .elegance-col-5, .elegance-col-6, .elegance-col-7, .elegance-col-8, .elegance-col-9, .elegance-col-10, .elegance-col-11, .elegance-col-12 {padding-right: 15px; padding-left: 15px; }
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-1 css 
+====================================================================
+
+***/
+.salon-menu-style-1 .elegance-salon-title, .salon-menu-style-1 .elegance-salon-price { font-size:18px; }
+.salon-menu-style-1 .elegance-beauty-title, .salon-menu-style-1 .elegance-beauty-price {font-size: 20px;}
+
+/*** 
+
+====================================================================
+  salon-menu-style-2 css 
+====================================================================
+
+***/
+.salon-menu-style-2 .elegance-menu-item .salon-title, .salon-menu-style-2 .elegance-menu-item .salon-price { font-size:18px; }
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-3 css 
+====================================================================
+
+***/
+.salon-menu-style-3 .elegance-menu-item .salon-title, .salon-menu-style-3 .elegance-menu-item .salon-price { font-size:18px; }
+.elegance-tabs .elegance-tab-text {font-size: 16px;min-width: 160px; min-height: 50px;}
+
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-5 css 
+====================================================================
+
+***/
+.salon-menu-style-4 .elegance-menu-body { padding: 15px; }
+.salon-menu-style-4 .elegance-menu-item .salon-price { font-size: 30px; }
+.salon-menu-style-4 .elegance-menu-item .salon-title { font-size: 22px; }
+}
+
+@media only screen and (max-width: 992px) {
+.elegance-col-6 {width: 100%;}
+.elegance-col-4 {width: 50%;}
+}
+
+@media only screen and (max-width: 767px) {
+.elegance-col-4 {width: 100%;}
+.elegance-section {padding-top: 30px;padding-bottom: 30px;}
+.elegance-section-header p { font-size:16px; }
+.elegance-section-header { margin-bottom: 35px; }
+
+/*** 
+
+====================================================================
+  salon-menu-style-1 css 
+====================================================================
+
+***/
+.salon-menu-style-1 .elegance-salon-title, .salon-menu-style-1 .elegance-salon-price { font-size:16px; }
+.salon-menu-style-1 .elegance-beauty-title, .salon-menu-style-1 .elegance-beauty-price {font-size: 18px;}
+.salon-menu-style-1 .elegance-beauty-header { border-bottom-width:1px; }
+
+/*** 
+
+====================================================================
+  salon-menu-style-2 css 
+====================================================================
+
+***/
+.salon-menu-style-2 .elegance-menu-item .salon-title, .salon-menu-style-2 .elegance-menu-item .salon-price { font-size:16px; }
+.salon-menu-style-2 .elegance-section-header p { font-size:17px; }
+
+/*** 
+
+====================================================================
+  salon-menu-style-3 css 
+====================================================================
+
+***/
+.salon-menu-style-3 .elegance-menu-item .salon-title, .salon-menu-style-3 .elegance-menu-item .salon-price { font-size:16px; }
+.elegance-tabs { margin-bottom:30px; }
+.elegance-tabs li { width:50%; padding: 5px; }
+.elegance-tabs .elegance-tab-text { min-width:1px; font-size:14px; }
+.elegance-tabs .elegance-tab-text::before { display:none; }
+.salon-menu-style-3 .elegance-menu-item .salon-img {width: 70px;height: 70px; }
+.salon-menu-style-3 .elegance-menu-body {width: calc(100% - 70px);padding-left: 15px;}
+.salon-menu-style-3 .elegance-section-header p { font-size:17px; }
+
+
+/*** 
+
+====================================================================
+  salon-menu-style-4 css 
+====================================================================
+
+***/
+.salon-menu-style-4 .elegance-menu-item { margin-bottom: 15px; }
+.salon-menu-style-4 .elegance-menu-item .salon-price { font-size: 24px; }
+.salon-menu-style-4 .elegance-menu-item .salon-title { font-size: 20px; }
+.salon-menu-style-4 .elegance-menu-item .salon-price .salon-old-price { font-size:16px; }
+.salon-menu-style-4 .elegance-menu-item .salon-img { height:350px; }
+
+}
