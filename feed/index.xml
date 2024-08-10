@@ -8,11 +8,11 @@
 	>
 
 <channel>
-	<title>photo.dudkowscy</title>
+	<title>PHOTO.DUDKOWSCY</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>Fotografia</description>
-	<lastBuildDate>Sat, 10 Aug 2024 22:17:59 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 10 Aug 2024 23:17:38 +0000</lastBuildDate>
 	<language>pl-PL</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>./../wp-content/uploads/2024/07/2023-12-biale-1.png</url>
-	<title>photo.dudkowscy</title>
+	<title>PHOTO.DUDKOWSCY</title>
 	<link>./../index.html</link>
 	<width>32</width>
 	<height>32</height>
